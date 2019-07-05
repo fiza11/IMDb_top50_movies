@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-year1 = input()
-year2 = input()
+year1 = input("Enter 1st year")
+year2 = input("Enter 2nd year")
 if (year2 < year1):
 	a = year1
 	year1 = year2
